@@ -1,23 +1,23 @@
 #include <iostream>
 #include <cstring>
 #include "media.h"
-#include "game.h"
+#include "videogames.h"
 
 using namespace std;
 
-game::game()
+Videogame::Videogame()
 {
 
 }
 
-char* game::getPublisher(){
+char* Videogame::getPublisher(){
   return publisher;
 }
 
-float* game::getRating(){
+float* Videogame::getRating(){
   return &rating;
 }
 
-int game::getType(){
+int Videogame::getType(){
   return 2;
 }
