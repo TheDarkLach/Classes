@@ -2,6 +2,8 @@
 #include <iostream>
 #include <cstring>
 #include <vector>
+#include "media.cpp"
+#include "media.h"
 
 using namespace std;
 
