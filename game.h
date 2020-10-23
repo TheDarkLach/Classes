@@ -18,11 +18,11 @@ class Game : public Media {
     char* getPublisher();
     int getRating();
 
-    //Variables (Should be Private for Coding form)
+    //Variables ,Should be Private
   private:
-    char title[100];//Character Array
+    char title[50];//Character Array
     int year;
-    char publisher[100];//Character Array
+    char publisher[50];//Character Array
     int rating;
 };
 #endif
