@@ -4,19 +4,20 @@
 
 using namespace std;
 
-Media::Media() {//calling .h file
-
-
+Media::Media()
+{
+  //blank
 }
 
-int Media::getType() {//sending type to .h
-  return 0;
-}
-
-int* Media::getYear() {//sending year to .h
+//getters
+int* Media::getYear(){
   return &year;
 }
 
-char* Media::getTitle() {//sending year to .h
+char* Media::getTitle(){
   return title;
+}
+
+int Media::getType(){
+  return 0;
 }
