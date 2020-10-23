@@ -20,9 +20,9 @@ class Game : public Media {
 
     //Variables ,Should be Private
   private:
-    char title[50];//Character Array
+    char title[100];//Character Array
     int year;
-    char publisher[50];//Character Array
+    char publisher[100];//Character Array
     int rating;
 };
 #endif
