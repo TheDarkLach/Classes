@@ -6,7 +6,7 @@
 
 class Media{
  public:
-  Media();//Constructor with no arguments
+  Media();
   //Function Declarations
   virtual int getType();
   char* getTitle();
