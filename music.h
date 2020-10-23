@@ -1,5 +1,5 @@
-#ifndef MUSIC_H
-#define MUSIC_H
+#ifndef music_h
+#define music_h
 
 #include <iostream>
 #include <cstring>
