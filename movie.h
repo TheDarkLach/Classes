@@ -1,5 +1,5 @@
-#ifndef movie_h
-#define movie_h
+#ifndef MOVIE_H
+#define MOVIE_H
 
 #include <iostream>
 #include <cstring>
