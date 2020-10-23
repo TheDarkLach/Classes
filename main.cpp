@@ -3,8 +3,8 @@
 #include <cstring>
 
 #include "media.h"
-#include "movies.h"
-#include "videogames.h"
+#include "movie.h"
+#include "game.h"
 #include "music.h"
 
 using namespace std;
