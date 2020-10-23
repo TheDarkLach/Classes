@@ -7,9 +7,9 @@
 
 using namespace std;
 
-class Videogame : public Media {
+class game : public Media {
  public:
-  Videogame();
+  game();
   virtual int getType();
   char* getPublisher();
   float* getRating();
