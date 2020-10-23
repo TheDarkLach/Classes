@@ -3,8 +3,8 @@
 #include <cstring>
 
 #include "media.h"
-#include "movie.h"
-#include "game.h"
+#include "movies.h"
+#include "videogames.h"
 #include "music.h"
 
 using namespace std;
@@ -125,7 +125,7 @@ void ADD(vector<Media*>* media) {
   }
   //input = videogames
   else if(strcmp(input, "videogame") == 0) {
-    Game* game = new Game();
+    Videogame* videogame = new Videogame();
     cout << "Input title: " << endl;
     cin.get(videogame->getTitle(), 30);
     cin.clear();
@@ -192,8 +192,8 @@ void SEARCH(char* title, vector<Media*>* media) {
       }
       //if it is a videogame
       else if((*iter)->getType() == 2) {
-        cout << "  Publisheb by " << dynamic_cast<Game*>(*iter)->getPublisher() << endl;
-	cout << "  Rating of " << *dynamic_cast<Gameame*>(*iter)->getRating() << " stars out of 5" << endl;
+        cout << "  Publisheb by " << dynamic_cast<Videogame*>(*iter)->getPublisher() << endl;
+	cout << "  Rating of " << *dynamic_cast<Videogame*>(*iter)->getRating() << " stars out of 5" << endl;
       }
     }
   }
