@@ -1,23 +1,23 @@
 #include <iostream>
 #include <cstring>
-#include "games.h"
 #include "media.h"
+#include "videogames.h"
 
 using namespace std;
 
-Games::Games() {//calling .h file
+Videogame::Videogame()
+{
 
-  
 }
 
-int Games::getType() {//storing type
-  return 1;
-}
-
-char* Games::getPublisher() {//sending publisher to .h file
+char* Videogame::getPublisher(){
   return publisher;
 }
 
-float* Games::getRating() {//sending rating to .h file
+float* Videogame::getRating(){
   return &rating;
+}
+
+int Videogame::getType(){
+  return 2;
 }
