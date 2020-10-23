@@ -1,5 +1,5 @@
-#ifndef games_h
-#define games_h
+#ifndef game_h
+#define game_h
 
 #include <iostream>
 #include <cstring>
@@ -7,15 +7,14 @@
 
 using namespace std;
 
-class Games : public Media {//games is a child of media
+class Videogame : public Media {
  public:
-  Games();
-  virtual int getType(); //storing type
-  char* getPublisher(); //pointer to publisher
-  float* getRating(); //pointer to rating
+  Videogame();
+  virtual int getType();
+  char* getPublisher();
+  float* getRating();
  private:
-  char publisher[100]; //storing publisher
-  float rating; //storing rating
+  char publisher[30];
+  float rating;
 };
-
 #endif
