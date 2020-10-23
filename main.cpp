@@ -14,6 +14,10 @@ int main()
     char input[15];
     
     cin >> input;
+    if (strcmp(input,"ADD") == 0)
+    {
+      cout << "yaa";
+    }
     else if (strcmp(input,"QUIT") == 0)
     {
       cout << "You have quit\n";
