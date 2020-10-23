@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Game::Game(char* newTitle, int newYear, char* newPublisher /*Character Array Pointer*/,int newRating){
+Game::Game(char* newTitle, int newYear, char* newPublisher,int newRating){
   title = newTitle;
   year = newYear;
   publisher = newPublisher;
