@@ -1,31 +1,23 @@
 #include <iostream>
-#include "game.h"
+#include <cstring>
+#include "games.h"
+#include "media.h"
 
 using namespace std;
 
-Game::Game(char* newTitle, int newYear, char* newPublisher,int newRating){
-  title = newTitle;
-  year = newYear;
-  publisher = newPublisher;
-  rating = newRating;
+Games::Games() {//calling .h file
+
+  
 }
 
-int Game::getType(){
+int Games::getType() {//storing type
   return 1;
 }
 
-char* Game::getTitle(){
-  return title;
-}
-
-int Game::getYear(){
-  return year;
-}
-
-char* Game::getPublisher(){
+char* Games::getPublisher() {//sending publisher to .h file
   return publisher;
 }
 
-int Game::getRating(){
-  return rating;
+float* Games::getRating() {//sending rating to .h file
+  return &rating;
 }
