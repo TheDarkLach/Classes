@@ -21,7 +21,7 @@ int main()
     }
     else
     {
-      cout << "Type in one of the commands prompted: ADD, DELETE";
+      cout << "Type in one of the commands: ADD, DELETE, SEARCH";
     }
   }
 }
