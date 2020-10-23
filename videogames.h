@@ -1,5 +1,5 @@
-#ifndef game_h
-#define game_h
+#ifndef VIDEOGAME_H
+#define VIDEOGAME_H
 
 #include <iostream>
 #include <cstring>
@@ -7,9 +7,9 @@
 
 using namespace std;
 
-class game : public Media {
+class Videogame : public Media {
  public:
-  game();
+  Videogame();
   virtual int getType();
   char* getPublisher();
   float* getRating();
