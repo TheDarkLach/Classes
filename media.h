@@ -1,22 +1,20 @@
-#ifndef media
-#define media
+#ifndef media_h
+#define media_h
 
 #include <iostream>
 #include <cstring>
 
-class Media{
+using namespace std;
+
+class Media {
  public:
   Media();
-  //Function Declarations
-  virtual int getType();
-  char* getTitle();
-  int getYear();
-  void setYear();
-  void setTitle();
-
- private: 
-  char title[100];
-  int year;
+  int* getYear(); //pointing to year
+  char* getTitle(); //pointing to title
+  virtual int getType(); //storing type
+ private:
+  int year; //storing year
+  char title[100]; //storing title
 };
 
 #endif
