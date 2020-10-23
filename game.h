@@ -1,28 +1,21 @@
-#ifndef game_H//If not defined
-#define game_H//Define
+#ifndef games_h
+#define games_h
 
 #include <iostream>
+#include <cstring>
 #include "media.h"
 
 using namespace std;
 
-class Game : public Media {
-  
+class Games : public Media {//games is a child of media
  public:
-  Game(char* newTitle,int newYear, char* newPublisher,int newRating);
-  
-    //Virtual functions
-    virtual int getType();
-    char* getTitle();
-    int getYear();
-    char* getPublisher();
-    int getRating();
-
-    //Variables ,Should be Private
-  private:
-    char title[100];//Character Array
-    int year;
-    char publisher[100];//Character Array
-    int rating;
+  Games();
+  virtual int getType(); //storing type
+  char* getPublisher(); //pointer to publisher
+  float* getRating(); //pointer to rating
+ private:
+  char publisher[100]; //storing publisher
+  float rating; //storing rating
 };
+
 #endif
