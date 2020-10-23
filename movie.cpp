@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include "media.h"
-#include "movies.h"
+#include "movie.h"
 
 using namespace std;
 
