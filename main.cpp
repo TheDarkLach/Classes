@@ -145,7 +145,7 @@ void ADD(vector<Media*>* media) {
     cin.ignore(10000, '\n');
     media->push_back(videogame);
   }
-  music
+  //music
   else if(strcmp(input, "music") == 0) {
     Music* music = new Music();
     cout << "Input title: " << endl;
