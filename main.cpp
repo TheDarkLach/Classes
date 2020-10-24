@@ -1,3 +1,5 @@
+//Program tos tore information on different media's
+//by Faizan Karim
 #include <iostream>
 #include <vector>
 #include <cstring>
