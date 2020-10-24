@@ -255,7 +255,7 @@ void DELETE(char* title, vector<Media*>* media) {
         cout << "  Rating of " << *dynamic_cast<Videogame*>(*iter)->getRating() << " stars out of 5" << endl;
       }
       //delete 
-      cout << "Delete this media object? type 'yes' or 'no': " << endl;
+      cout << "Delete this media? 'yes' or 'no' " << endl;
       cin.get(input, 4);
       cin.clear();
       cin.ignore(10000, '\n');
